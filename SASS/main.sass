@@ -22,6 +22,7 @@
 	padding:0
 	border:0
 	box-sizing: border-box
+	transition: all 0.3s
 
 
 a 
@@ -30,7 +31,71 @@ a
 body 
 	overflow-x: hidden
 
+#mobile-menu
+    height: 100vh
+    width: 100%
+    background-color: #333
+    z-index: 10000000
+    position: fixed
+    padding-top: 5%
+    background: url("../IMAGES/mobile-menu.png")
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    right: -100%
 
+    #fade
+    	width: 100%
+    	height: 100vh
+    	position: absolute
+    	background-color: #111
+    	top: 0
+    	opacity: 0.75
+    	z-index: 3
+
+    #menu-content
+    	position: absolute
+    	z-index: 4
+    	width: 100%
+
+	    ul 
+	      margin-left: 8.33%
+	      padding: 5% 0
+
+	      #close-menu
+	        text-align: right
+	        font-size: 16px
+	        border-bottom: 0
+	        color: #fff
+	        margin-bottom: 40px
+
+	        button 
+	        	color:#333
+	        	outline: none
+	        	background-color: #fff
+	        	padding: 2% 5%
+
+				
+	      li
+	        border-bottom:0px solid #fff
+	        list-style: none
+	        padding-bottom: 10px
+	        text-align: center
+	        font-size: 19px
+	        margin-bottom: 30px
+	        letter-spacing: 0.8px
+
+	        a 
+	          color: #fff
+	    #social-media
+	      ul 
+	        
+	        li 
+	          text-align: center
+	          // border:1px solid #333
+	          float: right
+	          padding-right: 11%
+	          border:0
 
 #main-wrapper
 	// font-family: 'Roboto', sans-serif
@@ -38,6 +103,8 @@ body
 	height: 700px 
 	// border:1px solid #333
 	// overflow: hidden
+
+	
 	
 	.header-container,.header-2-container
 		height: 650px 
@@ -99,6 +166,39 @@ body
 							// border:1px solid #333
 							float: right
 							padding-right: 11%
+			#responsiveNav
+				position: absolute
+				top: 20px
+
+				ul 
+					list-style: none
+
+					#ivy-logo-written
+						float: left
+
+						a 
+							text-decoration: none
+							color: #fff
+							font-family: 'Yesteryear', cursive
+							font-size: 18px
+							display: inline
+							padding-left: 15px
+					#menu-button
+						float: right
+						button 
+							color:#333
+							font-weight: 700
+							font-size: 14.5px
+							border: 2px solid #fff
+							padding: 5% 8%
+							text-align: center
+							margin-right: 15px
+							line-height: 1.2
+							outline: none
+							background-color: #fff
+						// background-color: #fff
+		
+
 
 			#ivy-logo-container
 				height: 150px 
@@ -190,10 +290,12 @@ body
 			#know-more-button
 				a 
 					text-decoration: none
-					color:#333
+					color:#fff
 					border:1px solid #333
-					padding: 0.2% 1.6%
+					padding: 0.4% 1.6%
 					border-radius: 50px 
+					font-size: 13px
+					background-color: #333
 	.header-2-container
 		height: 450px
 
@@ -269,7 +371,7 @@ body
 			background-repeat: no-repeat
 
 	#discover-menu
-		height: 1000px 
+		// height: 1000px 
 
 		#dicover-menu-header
 			background-color: #221F1F
@@ -676,6 +778,10 @@ body
 					letter-spacing: 0.8px
 					font-weight: 700
 					background-color: #fff
+	@media (max-width: 540px)
+		#extra-section-content-heading>h6 
+			font-size: 15px
+
 
 
 
@@ -1108,6 +1214,8 @@ body
 			font-size: 30px
 #main-wrapper
 	// display: none
+
+@import mobile.sass
 
 
 

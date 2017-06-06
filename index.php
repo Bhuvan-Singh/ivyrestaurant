@@ -2,7 +2,29 @@
 
 ?>
 <?php include("INCLUDES/header.php"); ?>
+	<div id="mobile-menu" class="l-hidden m-hidden s-hidden-x12">
+		<div id="fade"></div>
+		<div id="menu-content">
+			<ul class="x10">
+	    		<li class="x12" id="close-menu"><button onclick="hideMenu(); return false;">Close</button></li>
+	    		<li class="x12"><a href="index.php">Home</a></li>
+	    		<li class="x12"><a href="aboutus.php">About</a></li>
+	    		<li class="x12"><a href="gallery.php">Gallery</a></li>
+	    		<li class="x12"><a href="contactus.php">Contact</a></li>
+	    		<li class="x12"><a href="">Order online</a></li>
+			</ul>
+			<div id="social-media" class="x12">
+				<ul>							
+					<li class="x4 social-icon"><a href=""><img src="IMAGES/instagram.png" alt="" height="20px"></a></li>
+					<li class="x4 social-icon"><a href=""><img src="IMAGES/twitter.png" alt="" height="20px"></a></li>
+					<li class="x4 social-icon"><a href=""><img src="IMAGES/facebook.png" alt="" height="20px"></a></li>
+				</ul>
+			</div> 
+		</div>
+    	
+    </div>
 	<div class="conatiner l12 m12 s12 x12" id="main-wrapper">
+		
 	 	
 		<?php include('INCLUDES/head.php');?>
 		<div id="tilted-div-container" class="l12 m12 s12 x12">
@@ -52,7 +74,7 @@
 				</div>
 				<div id="discover-menu-icon" class="l12 m12 s12 x12"></div>
 				<div id="menu-categories" class="l12 m12 s12 x12">
-					<ul id="hello">
+					<ul >
 						<li id="menuCat1" onclick="menuFunctionOne();" class="menu-selected" >Breakfast</li>
 						<li id="menuCat2" onclick="menuFunctionTwo();">Drinks</li>
 						<li id="menuCat3" onclick="menuFunctionThree();">Lunch</li>
@@ -91,8 +113,8 @@
 			<div id="featured-section-content-container" class="l12 m12 s12 x12">
 				<div id="featured-section-image" class="l12 m12 s12 x12"></div>
 				<div id="featured-section-heading" class="l12 m12 s12 x12"><h4>Aenean nec ultrices turpis</h4></div>
-				<div id="featured-section-content" class="l9 m9 s9 x9">
-					<div class="featured-section-content-tile l4 m4 s4 x4">
+				<div id="featured-section-content" class="l9 m9 s9 x12">
+					<div class="featured-section-content-tile l4 m4 s4 x12">
 						<div class="featured-section-content-tile-count">
 							<h6>01</h6>
 						</div>
@@ -104,7 +126,7 @@
 							<p>Aenean nec ultrices turpis. Quisque varius libero turpis, id blandit sapien fermentum at. Donec vel justo eget turpis commodo eleifend. </p>
 						</div>
 					</div>
-					<div class="featured-section-content-tile l4 m4 s4 x4">
+					<div class="featured-section-content-tile l4 m4 s4 x12">
 						<div class="featured-section-content-tile-count">
 							<h6>02</h6>
 						</div>
@@ -116,7 +138,7 @@
 							<p>Aenean nec ultrices turpis. Quisque varius libero turpis, id blandit sapien fermentum at. Donec vel justo eget turpis commodo eleifend. </p>
 						</div>
 					</div>
-					<div class="featured-section-content-tile l4 m4 s4 x4">
+					<div class="featured-section-content-tile l4 m4 s4 x12">
 						<div class="featured-section-content-tile-count">
 							<h6>03</h6>
 						</div>
@@ -138,7 +160,7 @@
 		<!-- Ivys booking section begins here -->
 		<!-- Ivys booking section begins here -->
 		<div id="book-table-container" class="l12 m12 s12 x12">
-			<div id="book-table-inner" class="l10 m10 s10 x10">
+			<div id="book-table-inner" class="l10 m10 s10 x12">
 				<div id="time-section-container" class="l4 m4 s4 x12">
 					<div id="time-section" class="l10 m10 s10 x12">
 						<div id="time-section-heading">

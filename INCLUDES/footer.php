@@ -2,11 +2,11 @@
       <div id="footer-section-one" class="footer-section l6 m6 s6 x12">
         <div id="footer-section-one-social-container" class="l4 m4 s4 x12">
           <div id="footer-section-one-logo"></div>
-          <div id="social-media" class="l12 m12">
+          <div id="social-media" class="l12 m12 s12 x12">
             <ul>
-              <li class="l4 m4 s2 x2 social-icon"><a href=""><img src="IMAGES/facebook.png" alt="" height="25px"></a></li>
-              <li class="l4 m4 s2 x2 social-icon"><a href=""><img src="IMAGES/twitter.png" alt="" height="25px"></a></li>
-              <li class="l4 m4 s2 x2 social-icon"><a href=""><img src="IMAGES/instagram.png" alt="" height="25px"></a></li>
+              <li class="l4 m4 s4 x4 social-icon"><a href=""><img src="IMAGES/facebook.png" alt="" height="25px"></a></li>
+              <li class="l4 m4 s4 x4 social-icon"><a href=""><img src="IMAGES/twitter.png" alt="" height="25px"></a></li>
+              <li class="l4 m4 s4 x4 social-icon"><a href=""><img src="IMAGES/instagram.png" alt="" height="25px"></a></li>
             </ul>
           </div>
         </div>
@@ -23,8 +23,8 @@
           </div>
           <div id="subscribe-now-form-container" class="l12 m12 s12 x12">
             <form onsubmit="subscriberListFunction(); return false;" id="subscriberList">
-              <input type="email" name="subscriber_email" id="subscriber_email" placeholder="Your Email Id" class=" l6 m6 s6 x12">
-              <button name="submit_subscriber_form" class=" l3 m3 s3 x12" id="submit_subscriber_form" >Subscribe Now</button>
+              <input type="email" name="subscriber_email" id="subscriber_email" placeholder="Your Email Id" class=" l6 m6 s6 x10">
+              <button name="submit_subscriber_form" class=" l3 m3 s3 x10" id="submit_subscriber_form" >Subscribe Now</button>
               <div  class="l12 m12 s12 x12">
                 <div id="subscribeStatus" class="success l7 m7 s7 x10">
                     Succesful Subscription

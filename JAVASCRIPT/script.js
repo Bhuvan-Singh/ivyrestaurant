@@ -63,3 +63,16 @@ function closeLightBox(){
 	_("light-box-container").style.display="none";
 	_("main-wrapper").styl.display="block";
 }
+
+function showMenu(){
+	// alert('working');
+	_("mobile-menu").style.right= "0%";
+	_("main-wrapper").style.overflowX ="hidden";
+	_("main-wrapper").style.marginLeft ="-100%";
+}
+function hideMenu(){
+	// alert('working');
+	_("mobile-menu").style.right= "-100%";
+	_("main-wrapper").style.overflowX ="scroll";
+	_("main-wrapper").style.marginLeft ="00%";
+}

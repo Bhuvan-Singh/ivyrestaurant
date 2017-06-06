@@ -24,6 +24,12 @@
 			</div>
 			
 		</navbar>
+		<div id="responsiveNav" class="l-hidden m-hidden s-hidden x12">
+			<ul>
+				<li id="ivy-logo-written" class="x6"><a href="index.php" >The Ivy Restaurant</a></li>
+	        	<li id="menu-button" class="x3" ><button onclick="showMenu(); return false;">MENU</button></li>
+        	</ul>
+        </div>
 		<div id="ivy-logo-container" class="l12 m12 s12 x12">
 			<div id="ivy-logo" class="l4 m4 s4 x10"></div>
 		</div>
