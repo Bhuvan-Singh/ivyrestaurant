@@ -1,4 +1,4 @@
-<div id="discover-menu-content-2" class="l11 m11 s11 x12 discover-menu-content">
+<div id="discover-menu-content-2" class="l11 m11 s12 x12 discover-menu-content">
 	<div id="triangle-2" class="triangle"></div>
 <!-- Section one of menu begins here	 -->
 	<div id="menu-list-section-one" class="menu-list-section l6 m6 s6 x12">

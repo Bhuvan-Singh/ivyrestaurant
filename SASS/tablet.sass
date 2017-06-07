@@ -1,17 +1,19 @@
-@media (min-width:540px) and (max-width:720px)
+@media (min-width:540px) and (max-width:960px) and (orientation : portrait) 
 	#main-wrapper
 		// font-family: 'Roboto', sans-serif
 		font-family: 'Montserrat', sans-serif
-		height: 700px 
+		height: auto 
+		// display: none
 		// border:1px solid #333
-		// overflow: hidden
+		overflow: hidden
 
-		
+		#header
 		
 		.header-container,.header-2-container
 			height: 650px 
 			// background-color: red
 			position: relative
+
 
 
 			#header-image
@@ -22,18 +24,7 @@
 				background-position: center
 				background-size: cover
 				background-repeat: no-repeat
-			#header-fade 
-				height: 100%
-				position: absolute
-				z-index: 3
-				background-color: #333333
-				opacity: 0.43
 			#header-content
-				height: 100%
-				position: absolute
-				z-index: 4
-
-
 				navbar 
 					color: #fff
 					// border: 1px solid #fff
@@ -47,18 +38,20 @@
 				
 					#ivy-logo-written
 						padding-left: 5%
-						font-size: 25px
+						font-size: 17px
 						font-family: 'Yesteryear', cursive
-						margin-top: -8px
+						margin-top: -2px
 
 					#menu 
+
 						ul 
+							margin-left: 0.33%
 							li 
 								text-align: center
 								font-weight: 700
 								letter-spacing: 0.8px
-								font-size: 15px
-								margin-left: 2.77%
+								font-size: 12px
+								margin-left: 0.77%
 
 					#social-media
 						ul 
@@ -105,15 +98,16 @@
 				#ivy-logo-container
 					height: 150px 
 					// border:1px solid #fff
-					margin-top: 4%
+					margin-top:7%
 
 					#ivy-logo
 						height: 100%
 						// border: 1px solid #fff
-						margin-left: 34%
-						background: url("../IMAGES/DemoLogo.png")
+						margin-left: 5%
+						background: url("../IMAGES/logo2.png")
 						background-position: center
 						background-repeat: no-repeat
+						background-size: contain
 
 				#header-tag-line
 					color:#fff
@@ -121,32 +115,26 @@
 					margin-top: 1.5%
 					// font-family: 'Oswald', sans-serif
 
+					h3 
+						font-size: 18px
+
 
 				#order-online-button-container
 					text-align-last: center
-					margin-top: 3%
+					margin-top: 6%
 					
 					a
 						text-decoration: none
 						color: #fff
 						border:2px solid #fff
-						padding: 0.5% 2% 
+						padding: 1.2% 4% 
 
 		#tilted-div-container
 			position: relative
 
 
 			#tilted-div
-				background-color: #fff
-				width: 120%
-				border-bottom: 1px solid #F5F5F5
-				// opacity: 0.23
-				height: 250px
-				position: absolute
-				top: -90px
-				transform: rotate(-4deg)
-				z-index: 5
-				left: -5%
+				border-bottom: 2px solid #F5F5F5
 			#circle-div
 				background-color: #fff
 				height: 320px
@@ -185,16 +173,16 @@
 
 
 				#welcome-content
-					padding: 0% 41%
-					font-size: 12px
-					margin-bottom: 20px
+					padding: 0% 27.5%
+					font-size: 11.5px
+					margin-bottom: 25px
 
 				#know-more-button
 					a 
 						text-decoration: none
 						color:#fff
 						border:1px solid #333
-						padding: 0.4% 1.6%
+						padding: 1% 3.6%
 						border-radius: 50px 
 						font-size: 13px
 						background-color: #333
@@ -202,44 +190,38 @@
 			height: 450px
 
 		#about-ivy
-			height: 550px 
+			height: auto 
 			// border: 1px solid #333
 			position: relative
 			z-index: 4
 			margin-top: -50px
 
 			#discover-ivy
-				height: 100%
+				height: auto
 				// border: 1px solid red
 				position: relative
 
 
 				#discover-ivy-content-container
 					margin-top:100px  
-					padding: 10% 5%
+					padding: 5% 5% 8% 5%
 					text-align: center
 					// border:1px solid green
 					width: 94%
 					margin-left: 3%
 					position: relative
 					#discover-ivy-tilted-div
-						height: 100px
-						// border:1px solid red 
-						position: absolute
-						z-index: 10
-						margin-top: 150px
-						transform: rotate(-5deg)
-						left: 1px
-						top: -177px
-						background-color: #fff
+
 
 
 					#discover-ivy-head
 						font-size: 38px 
 						font-family: 'Yesteryear', cursive
-						color: #F3CB00
+						color: #A6D52E
 						letter-spacing: 0.8px
 						line-height: 1.4
+						position: relative
+						z-index: 11
 					#discover-ivy-subhead
 						font-size: 20px 
 						color: #000
@@ -247,137 +229,61 @@
 						letter-spacing: 0.8px
 						margin-bottom: 20px
 					#discover-ivy-content
-						padding: 0% 11%
+						padding: 0% 5%
 						letter-spacing: 0.8px
 						line-height: 1.4
+						font-size: 12.5px
+						text-align: justify
 					#discover-ivy-extra
 						font-size: 25px
 						margin-top: 10px
 						font-weight: bold
 						margin-bottom: 40px
-					#check-events-button
-						a
-							text-decoration: none
-							color: #F3CB00
-							border:2px solid #F3CB00
-							padding:0.9% 4.5%
-							font-weight: bold
 
 
 			#discover-ivy-image
-				height: 100%
+				height: 500px
 				// border:1px solid green
-				background: url("../IMAGES/DicoverIvyImage.jpg")
-				background-position: center
-				background-size: cover
-				background-repeat: no-repeat
 
 		#discover-menu
 			// height: 1000px 
 
 			#dicover-menu-header
-				background-color: #221F1F
-				text-align: center
 
 				#discover-menu-heading
-					font-size: 42px 
-					font-family: 'Yesteryear', cursive
-					color: #F3CB00
-					padding: 4% 0 0% 0 
-					line-height: 1.1
+					padding: 4% 0 2% 0 
 				#discover-menu-sub-heading	
-					font-size: 15px 
-					color:#fff
-					letter-spacing: 0.8px
-					font-family: "Roboto"
-					padding-bottom: 1%
+					letter-spacing: 1.2px
 
-				#discover-menu-icon
-					height: 40px
-					background: url("../IMAGES/food.png")
-					background-position: center
-					background-size: contain
-					background-repeat: no-repeat
 				#menu-categories
 					text-align: center
 					padding: 5% 0 7% 0
 					ul 
-						width: 40%
+						width: 100%
 						// border:1px solid #fff
-						margin-left: 30%
-						list-style: none
+						margin-left: 0%
 
-						.menu-selected
-							color: #F3CB00
-							font-size: 18px
-							margin-top: -2px
-							text-decoration: underline
-
-						li 
-							float: left
-							text-align: center
-							width: 25%
-							// border: 1px solid #fff
-							text-decoration: none
-							color: #fff
-							margin: 0 auto
-							// width: 25%
-							// text-decoration: underline
-							text-align: center
-							letter-spacing: 0.8px
-							font-size: 15px
-							// display: block
-							cursor: pointer
+						
 						
 			#discover-menu-content-cotainer
-				position: relative
-				background: url("../IMAGES/HeaderImage.jpg")
-				background-position: center
-				background-size: cover
-				background-repeat: no-repeat
-				height: 600px
-				
-
-				#discover-menu-content-cotainer-fade
-					position: absolute
-					z-index: 2
-					background-color: #333
-					opacity: 0.36
-					height: 100%
-
+				height: auto
 
 				.discover-menu-content
-					// border:1px solid #333
-					position: absolute
-					margin-left: 4.33%
-					background-color: #fff
-					top: -50px
+					border-bottom:2px dashed #e5e5e5
+					position: relative
+					margin-left: 0%
+					top: 0px
 					padding:3.5% 0 5.5% 0
-					z-index: 3
-					display: none		
+		
 					.triangle
-						width: 0
-						height: 0 
-						border-left: 20px solid transparent
-						border-right: 20px solid transparent
-						border-bottom: 20px solid #fff
-						position: absolute
-						top: -20px
-					#triangle-1
-						left: 31.5%
-					#triangle-2
-						left: 42.5%
-					#triangle-3
-						left: 53.5%
-					#triangle-4
-						left: 64.5%
+						display: none
 
 					.menu-list-section
 						// border:1px solid green
 						// overflow-y: scroll
 
 						.menu-list-item
-							margin: 4% 0 0 12.33%
+							margin: 4% 0 0 8.33%
 
 
 							.menu-list-item-inner
@@ -386,131 +292,80 @@
 								.menu-list-item-image
 									height: 70px
 									// border:1px dotted #333
-									background: url("../IMAGES/HeaderImage.jpg")
-									background-position: center
-									background-size: cover
-									background-repeat: no-repeat
+
 								.menu-list-item-content
 									padding-left: 5%
 
 									.menu-list-item-content-heading
-										font-weight: 700
-										// border: 1px solid red
-										margin-top: 0
 
 										h4
-											line-height: 0
+											line-height: 0.3
+											font-size: 13px
 
 									.menu-list-item-content-subheading
-										padding: 0.2% 19% 0 0
+										padding: 0.0% 19% 0 0
 										color:#333
-										letter-spacing: 0.8px
-				#discover-menu-content-1
-					display: block
+
+										h6
+											font-size: 11.5px
+											letter-spacing: 0.8px
 
 		#featured-section
-			// height: 500px
+			height: auto
 			position: relative
 			padding-bottom: 5.5%
-			padding-top: 1.5%
+			padding-top: 4%
 
 			#featured-section-tilted-one
-				height: 200px
-				// border:1px solid #333
-				transform: rotate(-4.5deg)
-				width: 110%	
-				position: absolute
-				background-color: #fff
-				top: -70px
-				z-index: 6
+				display: none
 			#featured-section-tilted-two
-				height: 200px
-				// border:1px solid #333
-				transform: rotate(4.5deg)
-				width: 110%		
-				position: absolute	
-				left: -10%	
-				background-color: #fff
-				top: -70px
-				z-index: 6
+				display: none
 			#featured-section-content-container
 				position: relative
 				z-index: 7
 				text-align: center
 
-				#featured-section-image
-					background: url("../IMAGES/cooker.png")
-					background-position: center
-					background-size: contain
-					height: 50px
-					background-repeat: no-repeat
-					margin-bottom: 1%
-				#featured-section-heading
-					text-align: center
-					h4
-						font-size: 25px
-						letter-spacing: 0.8px
 
 				#featured-section-content
-					margin-left: 13%
+					margin-left: 4.33%
 					margin-top: 3%
 
 					.featured-section-content-tile
-						padding:2% 4%
+						padding:2% 2%
 
 						.featured-section-content-tile-count
 							padding-bottom: 0px
 							h6 
-								font-size: 32px
-								font-family: 'Yesteryear', cursive
-								color: #F3CB00
+								font-size: 28px
 						.featured-section-content-tile-heading
-							padding-bottom: 20px
+							padding-bottom:10px
 							h6 
-								font-size: 32px
-								font-family: 'Yesteryear', cursive
-								color: #F3CB00
+								font-size: 28px
+
 						.featured-section-content-tile-data
 							letter-spacing: 0.8px 
+							p 
+								font-size: 12px
+								text-align: justify
 
 		#book-table-container
-			height: 700px
-			background-color: #221F1F
+			height: auto
 
 			#book-table-inner
-				height: 500px
+				height: auto
 				// border: 1px dotted #fff
-				margin-left: 8.33%
-				margin-top: 100px
+				margin-left: 0%
+				margin-top: 50px
 
 				#time-section-container
-					height: 100%
-					// border: 1px solid red
-					background-color: #171414
+					height: auto
+
 					#time-section
-						height: 90%
-						border:1px solid #3E3E3E
-						margin-left:8.33%
-						margin-top: 6%
-						text-align: center
-
-						#time-section-heading	
-							font-family: 'Yesteryear', cursive
-							color: #F3CB00
-							padding: 3%
-							h5
-								font-size: 32px
-
-						#time-section-image
-							background: url("../IMAGES/food.png")
-							background-position: center
-							background-size: contain
-							background-repeat: no-repeat
-							height: 50px
-							margin-bottom: 20px
+						height: auto
+						padding: 8.8% 0
 
 						.days
-							color: #F3CB00
+							color: #A6D52E
 							margin-bottom: 15px
 							margin-top: 30px
 							h6
@@ -526,296 +381,109 @@
 							border-top:1px solid #3E3E3E
 							margin-left: 8.33%
 							padding-top: 10px
-						.mobile
-							color: #fff
-							margin-bottom: 10px
-							h6
-								letter-spacing: 0.8px
+
 
 
 
 				#form-section-container	
-					height: 100%
-					// border:1px solid green
+					height: auto
+					border-right:1px solid green
 
 					#booking-form-container
-						height: 400px
-						background-color: #fff
-						text-align: center
-
-						#booking-form-container-heading
-							font-family: 'Yesteryear', cursive
-							color: #F3CB00
-							margin-top: 55px
-							h6
-								font-size: 32px
-						#booking-form-container-subheading
-							margin-bottom:10px 
-							h6
-								font-size: 14px
-								letter-spacing: 0.8px 
 
 						#booking-form
 							margin-top: 40px
 							padding-left: 6.33%
 							form
-								input 
-									margin-left: 4.33%
-									border-bottom: 1px solid #3E3E3E
-									margin-bottom:40px
-									font-size: 13px
-									padding: 5px
-								input:focus
-									outline: none
-								select 
-									margin-left: 4.33%
-									border-bottom: 1px solid #3E3E3E
-									font-size: 13px
-									padding: 5px
-								select:focus
-									outline: none
 								#bookNowButton
-									background-color: #171414
-									color: #fff
-									padding: 1% 2%
-									margin-left: 33.8%
-									margin-top: 40px
-									border-radius: 50px
-								#sending-icon-booking
-									height: 20px 
-									// width: 35px 
-									margin-top: 47.5px
-									// border: 1px solid #333
-									margin-left: 20px
-									background: url("../IMAGES/refresh-button.png")
-									background-position: center
-									background-size: contain
-									background-repeat: no-repeat
-									animation: sending-icon-animation 0.7s linear infinite
-									display: none
-								.empty-field
-									border-bottom: 1px solid #FF6B6B
+									padding: 1.5% 3%
+	
 								#bookingStatus
-									height: 45px
-									margin-top: 10px
-									border-radius: 2px
-									// border: 1px solid #333
-									display: none
-									margin-left: 4%
-								.success
-									background-color: #5DD39E
-									color:#fff
-									font-size: 14px
-									flex-weight: 700
-									letter-spacing: 0.8px
-									padding-top: 2%
-									text-align: center
-								.fail
-									background-color: #FF6B6B
-									color:#fff
-									font-size: 14px
-									flex-weight: 700
-									letter-spacing: 0.8px
-									padding-top: 2%
-									text-align: center
-
-								
-
-					#booking-terms-container
-						height: 100px
-						background-color: #171414
-
-						#booking-terms-inner
-							width: 97%
-							height: 60px
-							margin-top: 10px
-							border:1px solid #3E3E3E
-							padding: 0% 4%
-
-							h6 
-								font-size: 10px
-								line-height: 1
-								color: #A9AAAB
-								letter-spacing: 0.8px
+									height: auto
+									padding: 1.5% 2%
+							
 		#extra-section	
-			height: 250px
-			position: relative
-			#extra-section-image
-				height: 100%
-				position: absolute
-				z-index: 2
-				background: url("../IMAGES/HeaderImage.jpg")
-				background-position: center
-				background-size: cover
-				background-repeat: no-repeat
-
-			#extra-section-fade
-				height: 100%
-				position: absolute
-				z-index: 3
-				background-color: #333
-				opacity: 0.43
-			#extra-section-content
-				height: 100%
-				position: absolute
-				z-index: 4
-				text-align: center
-				#extra-section-content-heading
-					padding-top: 20px	
-					h6
-						font-size: 23px
-						color: #fff
-						letter-spacing: 0.8px
-						padding: 2% 25%
-						line-height: 1.28
-						font-weight: 700
-				#extra-section-content-button
-					margin-top: 1%
-					a 
-						text-decoration: none
-						color:#333
-						font-size: 16px
-						border:2px solid #fff
-						padding:0.7% 2.5%
-						letter-spacing: 0.8px
-						font-weight: 700
-						background-color: #fff
-		@media (max-width: 540px)
-			#extra-section-content-heading>h6 
-				font-size: 15px
-
-
+			display: none
 
 
 		footer
-			height: 350px
+			height: auto
 
 			.footer-section
-				height: 100%
+				height: auto
 				// border:1px solid #333
 
 			#footer-section-one
-				background-color: #171414
-				color:#fff
-				padding:4.5%
-				padding-top: 6%
 				#footer-section-one-social-container
 					#footer-section-one-logo
-						height: 120px
-						background: url("../IMAGES/DemoLogo.png")
+						height: 150px
+						background: url("../IMAGES/logo.png")
 						background-position: center
 						background-size: contain
 						background-repeat: no-repeat
 
 					#social-media
-						margin-top: 45px
+						margin-top: 30px
 						ul 
-							list-style: none
 							
 							li 
 								text-align: center
 								// border:1px solid #333
-								float: left
-								padding-right: 11%
+								height: 50px
 						
 				#footer-section-one-about-container
-					padding-left: 5%
 					#footer-section-one-restaurant-name
-						font-family: 'Yesteryear', cursive
+						padding-top: 40px
 						margin-bottom: 25px
 						h6 
-							font-size: 32px
+							font-size: 22px
 					#footer-section-one-about
 						p
 							letter-spacing: 0.8px
-							font-size: 13px
+							font-size: 12px
 			#footer-section-two
-				height: 100%
-				position: relative
+				height: 410px
 
-				#footer-map
-					height: 100%
-					// border:1px solid #333
-					position: absolute
-					z-index: 2
 
 				#footer-map-content
-					height: 100%
-					position: absolute
-					z-index: 3
-					color:#fff
+
 					// border: 1px solid #333
-					padding-top: 32%
-					padding-left: 20%
+					padding-top: 62%
+					padding-left: 0%
 					#subscribe-now-heading
-						font-family: 'Yesteryear', cursive
-						h6
-							font-size: 26px
-							letter-spacing: 0.8px
+						padding-left: 8.33%
 
 
 					#subscribe-now-form-container
+						
+
 
 						input 
-							height: 40px
-							padding: 10px
-							font-size: 12px
-							color:#333
-						input:focus
-							outline: none
+							height: 50px
+							margin-left: 8.33%
+	
 
 						button 
-							height: 40px
-							background-color: #2D2D2D
+							height: 50px
+							letter-spacing: 0.8px
+							margin-left: 8.33%
 						.empty-field
 							border: 1px solid #FF6B6B
 						#subscribeStatus
-							height: 50px
-							color:#fff
-							position: absolute
-							top: 200px
-							left: 20%
-							display: none
-
-						.success
-							background-color: #5DD39E
-							color:#fff
-							font-size: 14px
-							flex-weight: 700
-							letter-spacing: 0.8px
-							padding-top: 2.23%
-							text-align: center
-						.fail
-							background-color: #FF6B6B
-							color:#fff
-							font-size: 14px
-							flex-weight: 700
-							letter-spacing: 0.8px
-							padding-top: 2.23%
-							text-align: center
+							height: auto
+							padding: 3% 2%
+							left: 8.33%
+							top: 220px
 		
 
 		#about-us-container
-			padding: 6% 15% 6.5% 15%
+			padding: 6% 10% 6.5% 10%
 			#about-us-heading
-				text-align: center	
 				h6 
-					font-family: 'Yesteryear', cursive
-					color: #F3CB00
-					font-size: 38px
-					letter-spacing: 0.8px
-					margin-bottom: 60px
+					font-size: 32px
+					margin-bottom: 40px
 			#about-us-content
-				text-align: center
-				p 
-					letter-spacing: 0.8px
-					line-height: 1.7
-					font-size: 14.5px
-		@media (max-width:364px)
-			#about-us-container
-				padding: 6% 8% 6.5% 8%
-				#about-us-heading>h6
-					margin-bottom: 25px
+				text-align: justify
 		#about-us-gallery
 			padding-bottom: 6%
 			padding-top: 2%
@@ -879,7 +547,7 @@
 					margin-bottom: 0px
 					font-weight: 700
 					font-family: 'Yesteryear', cursive
-					color: #F3CB00
+					color: #A6D52E
 			#contact-us-form-sub-heading
 				h6
 					font-size: 14px
@@ -950,103 +618,13 @@
 							animation: sending-icon-animation 0.7s linear infinite
 							display: none
 						#formStatus
-							height: 45px
-							margin-top: 25px
-							border-radius: 2px
+							height: auto
+							margin-top: 20px
+							padding: 2.5% 2%
 							// border: 1px solid #333
 							display: none
-						.success
-							background-color: #5DD39E
-							color:#fff
-							font-size: 14px
-							flex-weight: 700
-							letter-spacing: 0.8px
-							padding-top: 2.23%
-							text-align: center
-						.fail
-							background-color: #FF6B6B
-							color:#fff
-							font-size: 14px
-							flex-weight: 700
-							letter-spacing: 0.8px
-							padding-top: 2.23%
-							text-align: center
-
-			#address-container
-				// border:1px solid #333
-				text-align: left
-				// padding-left: 7%
-				padding: 3% 0 3% 8%
-
-				.heading
-					h6
-						font-size: 17px
-						letter-spacing: 0.8px
-						margin-bottom: 0px
-						font-weight: 700
-						color: #333
-						margin-bottom: 35px
-				#address-container-content
-					#location,#phone,#mail
-						margin-bottom: 25px
-						letter-spacing: 0.8px
-					#phone
-						margin-bottom: 40px
-					.address-icon
-						height: 35px 
-
-					#location-icon
-						background: url("../IMAGES/placeholder-icon-1.png")
-						background-position: center left
-						background-size: contain
-						background-repeat: no-repeat
-					#phone-icon
-						background: url("../IMAGES/phone-icon.png")
-						background-position: center left
-						background-size: contain
-						background-repeat: no-repeat
-					#mail-icon
-						background: url("../IMAGES/envelope-icon.png")
-						background-position: center left
-						background-size: contain
-						background-repeat: no-repeat
-		#columns
-			// height: 600PX
-			padding: 1.5% 5% 
-			column-width: 320px
-			column-gap: 15px
-		  	width: 90%
-			// max-width: 100vw
-			margin: 50px auto
-			column-count: 4
-
-
-			figure 
-				width: 95% 
-				display: inline-block
-				padding: 1.5%
-				background-color: #fff
-				border:2px solid #efefef
-				margin: 10px 10px 20px 10px
-				// position: absolute
-				top: 0
-				column-break-inside : avoid
-				transition: opacity 0.2s
-				cursor: pointer
-
-
-
-				img 
-					height: auto 
-					width: 100%
-					margin-bottom: 10px
-
-				figcaption
-					border-top: 2px solid #efefef
-					padding: 2% 2% 4% 2%
-					letter-spacing: 0.8px
-					text-align: left
-					color: #333
+									
+				
 	#light-box-container
 		position: fixed
 		height: 100vh
@@ -1114,10 +692,6 @@
 				top: 5%
 				right: 2%
 				font-size: 30px
-	#main-wrapper
-		// display: none
-
-	@import mobile.sass
 
 
 

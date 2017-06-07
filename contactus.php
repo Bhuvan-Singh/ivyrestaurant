@@ -70,7 +70,7 @@
 		<div id="address-container-content" class="heading l12 m12 s12 x12">
 			<div id="location" class="l12 m12 s12 x12">
 				<div id="location-icon" class="address-icon l2 m2 s2 x12"></div>
-				<div id="location-content" class="address-content l3 m3 s3 x12">
+				<div id="location-content" class="address-content l3 m3 s6 x12">
 					<strong>The Ivy Restaurant</strong>
 					<br>89/90, Ground Floor, Baani Square 
 					<br>Gurgaon, Haryana 122018<br>
@@ -78,7 +78,7 @@
 			</div>
 			<div id="phone" class="l12 m12 s12 x12">
 				<div id="phone-icon" class="address-icon l2 m2 s2 x12"></div>
-				<div id="phone-content" class="address-content l3 m3 s3 x12">
+				<div id="phone-content" class="address-content l3 m3 s6 x12">
 					<p>+91 9235154355
 					<br>+91 1225484589<br>
 					011 26536542</p>
@@ -87,7 +87,7 @@
 			</div>
 			<div id="mail" class="l12 m12 s12 x12">
 				<div id="mail-icon" class="address-icon l2 m2 s2 x12"></div>
-				<div id="mail-content" class="address-content l3 m3 s3 x12">
+				<div id="mail-content" class="address-content l3 m3 s6 x12">
 					<p>xyz1234@gmail.com<br>
 					yzxsc2365@gmail.com
 					</p>

@@ -28,25 +28,29 @@
 	</div>
 	<div id="about-us-content" class="l12 m12 s12 x12">
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam urna dolor, sollicitudin id felis id, ullamcorper aliquam ante. Nunc lobortis orci sed elit tempor faucibus. Ut vestibulum tortor sit amet tincidunt vehicula. Donec molestie quam vitae metus accumsan, et cursus libero pharetra. Nulla scelerisque sed nunc at pretium. Aenean porta, ipsum at condimentum porta, mi urna consequat ante, eu ultrices risus lectus vitae enim. Nunc maximus gravida lacus, at interdum risus tempor congue. Etiam ante lectus, viverra nec hendrerit ac, fringilla quis neque. Duis ac porttitor ex. Phasellus tempor, justo et ultricies placerat, velit lectus vehicula dui, non tincidunt elit massa sit amet augue. Nunc sollicitudin velit quis congue porttitor. Nunc nec tempus elit. Integer tempor scelerisque posuere. Morbi neque augue, commodo ac varius in, viverra eu augue. Donec lacus nisl, iaculis vestibulum mauris non, fringilla rutrum lacus. Vivamus lobortis consectetur dolor at gravida.
+			Perspective is hard to come by. Although everyone has an opinion on how certain things are to be done, it takes a genius to actually get it done. And it takes an even greater genius, an intellectual to change the way things are done, while adhering to standards and exceeding expectations of people, from time to time. Luckily for us, the chefs at The Ivy Gurugram are exactly what you would ideally want your chefs to be - intellectuals who strive everyday to recreate that is familiar, and make the known, unique.                        
+			Our chefs have toiled tirelessly to curate and re-create a menu that is influenced by all culinary cultures, the latest in gastronomic sciences and yet, manages to adhere to the Indian palate. Although our primary focus is on Continental Europe and the Oriental Mediterranean cuisines, offerings from all corners of the world make us one of the few shining beacons for food that is truly global, in the heart of Gurugram.
+
 		</p>
 	</div>
 </div>
 <div id="featured-section" class="l12 m12 s12 x12">
+	<div id="featured-section-tilted-one"></div>
+	<div id="featured-section-tilted-two"></div>
 	<div id="featured-section-content-container" class="l12 m12 s12 x12">
 		<div id="featured-section-image" class="l12 m12 s12 x12"></div>
-		<!-- <div id="featured-section-heading" class="l12 m12 s12 x12"><h4>Aenean nec ultrices turpis</h4></div> -->
-		<div id="featured-section-content" class="l9 m9 s9 x12">
+		<div id="featured-section-heading" class="l12 m12 s12 x12"><h4>Aenean nec ultrices turpis</h4></div>
+		<div id="featured-section-content" class="l9 m9 s11 x12">
 			<div class="featured-section-content-tile l4 m4 s4 x12">
 				<div class="featured-section-content-tile-count">
 					<h6>01</h6>
 				</div>
 				<div class="featured-section-content-tile-heading">
-					<h6>Lorem Ipsum</h6>
+					<h6>Mediterranean</h6>
 				</div>
 				
 				<div class="featured-section-content-tile-data">
-					<p>Aenean nec ultrices turpis. Quisque varius libero turpis, id blandit sapien fermentum at. Donec vel justo eget turpis commodo eleifend. </p>
+					<p>Our offerings from the Middle East have been developed using the traditional ingredients indigenous to the region, with the latest and accepted culinary methods and sciences. A perfect amalgamation of art and science. </p>
 				</div>
 			</div>
 			<div class="featured-section-content-tile l4 m4 s4 x12">
@@ -54,11 +58,12 @@
 					<h6>02</h6>
 				</div>
 				<div class="featured-section-content-tile-heading">
-					<h6>Vulputate fermentum</h6>
+					<h6>Continental</h6>
 				</div>
 				
 				<div class="featured-section-content-tile-data">
-					<p>Aenean nec ultrices turpis. Quisque varius libero turpis, id blandit sapien fermentum at. Donec vel justo eget turpis commodo eleifend. </p>
+					<p>Dishes that are globally recognised, and classics unto themselves, our vast array of Continental offerings, show the finesse and thought that is quintessentially associated with European food.
+					</p>
 				</div>
 			</div>
 			<div class="featured-section-content-tile l4 m4 s4 x12">
@@ -66,11 +71,11 @@
 					<h6>03</h6>
 				</div>
 				<div class="featured-section-content-tile-heading">
-					<h6>Donec vel</h6>
+					<h6>And more…</h6>
 				</div>
 				
 				<div class="featured-section-content-tile-data">
-					<p>Aenean nec ultrices turpis. Quisque varius libero turpis, id blandit sapien fermentum at. Donec vel justo eget turpis commodo eleifend. </p>
+					<p>Keeping the taste palates that is unique to India, we also have a selection of dishes that is as perfectly placed as India in the contemporary global Scenario. In this post colonial melting pot that the world is, why should food be any different?</p>
 				</div>
 			</div>
 		</div>

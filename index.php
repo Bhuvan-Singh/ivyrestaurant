@@ -34,7 +34,8 @@
 				<div id="welcome-image"></div>
 				<div id="welcome-head">Welcome</div>
 				<div id="welcome-subhead">To Ivy Reataurant</div>
-				<div id="welcome-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis diam erat, non consequat metus laoreet at. Fusce lacinia, ipsum a pulvinar mattis, ante velit lobortis eros, ac tristique nulla nulla ut turpis. </div>
+				<div id="welcome-content">Located in the heart of Gurugram, The Ivy Restaurant is set out to change the way people perceive food. Offering wonders from the vast arrays of Continental cuisine, Mediterranean cuisine and a whole lot more, the menu has been curated with great care and sincerity, keeping in mind the palate of our patrons and guests.
+				</div>
 				<div id="know-more-button"><a href="#">More</a></div>
 			</div>
 		
@@ -48,15 +49,16 @@
 					<div id="discover-ivy-subhead" class="l12 m12 s12 x12"> Our Restaurant</div>
 					<div id="discover-ivy-content" class="l12 m12 s12 x12">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis diam erat, non consequat metus laoreet at. Fusce lacinia, ipsum a pulvinar mattis, ante velit lobortis eros, ac tristique nulla nulla ut turpis. Mauris ullamcorper eros nisl, non sodales est blandit convallis. In porttitor malesuada eleifend. Nulla volutpat semper mi. 
+							With a sincerely and cautiously curated menu, The Ivy Restaurant brings you some of the most guarded and vehemently protected secret recipes, that have been passed down in families over generations. The ambience is on par with the decor, which, when seen together, reflect our core philosophy - traditions juxtaposed with modernity, in a perfect harmony. Our methods of cooking and hospitality is surely as unique and scintillating, as it is popular among our patrons in Gurugram and Delhi NCR.
+ 
 						</p>
 					</div>
-					<div id="discover-ivy-extra" class="l12 m12 s12 x12">
+					<!-- <div id="discover-ivy-extra" class="l12 m12 s12 x12">
 						<h5>consectetur adipiscing elit ante velit lobortis eros</h5>
 					</div>
 					<div id="check-events-button" class="l12 m12 s12 x12">
 						<a href="#">Check Events</a>
-					</div>
+					</div> -->
 
 				</div>
 			</div>
@@ -113,17 +115,17 @@
 			<div id="featured-section-content-container" class="l12 m12 s12 x12">
 				<div id="featured-section-image" class="l12 m12 s12 x12"></div>
 				<div id="featured-section-heading" class="l12 m12 s12 x12"><h4>Aenean nec ultrices turpis</h4></div>
-				<div id="featured-section-content" class="l9 m9 s9 x12">
+				<div id="featured-section-content" class="l9 m9 s11 x12">
 					<div class="featured-section-content-tile l4 m4 s4 x12">
 						<div class="featured-section-content-tile-count">
 							<h6>01</h6>
 						</div>
 						<div class="featured-section-content-tile-heading">
-							<h6>Lorem Ipsum</h6>
+							<h6>Mediterranean</h6>
 						</div>
 						
 						<div class="featured-section-content-tile-data">
-							<p>Aenean nec ultrices turpis. Quisque varius libero turpis, id blandit sapien fermentum at. Donec vel justo eget turpis commodo eleifend. </p>
+							<p>Our offerings from the Middle East have been developed using the traditional ingredients indigenous to the region, with the latest and accepted culinary methods and sciences. A perfect amalgamation of art and science. </p>
 						</div>
 					</div>
 					<div class="featured-section-content-tile l4 m4 s4 x12">
@@ -131,11 +133,12 @@
 							<h6>02</h6>
 						</div>
 						<div class="featured-section-content-tile-heading">
-							<h6>Vulputate fermentum</h6>
+							<h6>Continental</h6>
 						</div>
 						
 						<div class="featured-section-content-tile-data">
-							<p>Aenean nec ultrices turpis. Quisque varius libero turpis, id blandit sapien fermentum at. Donec vel justo eget turpis commodo eleifend. </p>
+							<p>Dishes that are globally recognised, and classics unto themselves, our vast array of Continental offerings, show the finesse and thought that is quintessentially associated with European food.
+							</p>
 						</div>
 					</div>
 					<div class="featured-section-content-tile l4 m4 s4 x12">
@@ -143,11 +146,11 @@
 							<h6>03</h6>
 						</div>
 						<div class="featured-section-content-tile-heading">
-							<h6>Donec vel</h6>
+							<h6>And more…</h6>
 						</div>
 						
 						<div class="featured-section-content-tile-data">
-							<p>Aenean nec ultrices turpis. Quisque varius libero turpis, id blandit sapien fermentum at. Donec vel justo eget turpis commodo eleifend. </p>
+							<p>Keeping the taste palates that is unique to India, we also have a selection of dishes that is as perfectly placed as India in the contemporary global Scenario. In this post colonial melting pot that the world is, why should food be any different?</p>
 						</div>
 					</div>
 				</div>
@@ -160,23 +163,23 @@
 		<!-- Ivys booking section begins here -->
 		<!-- Ivys booking section begins here -->
 		<div id="book-table-container" class="l12 m12 s12 x12">
-			<div id="book-table-inner" class="l10 m10 s10 x12">
+			<div id="book-table-inner" class="l10 m10 s12 x12">
 				<div id="time-section-container" class="l4 m4 s4 x12">
 					<div id="time-section" class="l10 m10 s10 x12">
 						<div id="time-section-heading">
 							<h5>Time</h5>
 						</div>
 						<div id="time-section-image"></div>
-						<div class="days"><h6>MONDAY - FRIDAY</h6></div>
+						<div class="days"><h6>MONDAY - SUNDAY</h6></div>
 						<div class="time-container">
-							<div class="time"><h6>xx am - yy pm (loremz)</h6></div>
+							<div class="time"><h6>12:00 AM - 11:00 PM</h6></div>
 							<div class="time"><h6>xx am - yy pm (xyz)</h6></div>
 						</div>
-						<div class="days"><h6>SATURDAY/SUNDAY</h6></div>
+						<!-- <div class="days"><h6>SATURDAY/SUNDAY</h6></div>
 						<div class="time-container">
 							<div class="time"><h6>xx am - yy pm (xyz)</h6></div>
 							<div class="time"><h6> xx am - yy pm (lorem Ipsum)</h6></div>
-						</div>
+						</div> -->
 						<div id="mobile-container" class="l10 m10 s10 x12">
 							<div class="mobile"><h6>+91 9898959596</h6></div>
 							<div class="mobile"><h6>+91 9898959596</h6></div>
@@ -236,12 +239,12 @@
 
 						
 					</div>
-					<div id="booking-terms-container" class="l12 m12 s12 x12">
+					<!-- <div id="booking-terms-container" class="l12 m12 s12 x12">
 						<div id="booking-terms-inner" class="l11 m11 s11 x11">
 							<h6>1. Praesent ullamcorper est id sapien sollicitudin, id malesuada quam tincidunt. Mauris in vulputate orci, ac dignissim eros. Fusce id sem pharetra, sollicitudin neque id, elementum purus.</h6>
 							<h6>2. Fusce id sem pharetra, sollicitudin neque id, elementum purus.</h6>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				
 			</div>
