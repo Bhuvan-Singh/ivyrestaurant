@@ -115,7 +115,7 @@
 			<div id="featured-section-content-container" class="l12 m12 s12 x12">
 				<div id="featured-section-image" class="l12 m12 s12 x12"></div>
 				<div id="featured-section-heading" class="l12 m12 s12 x12"><h4>Aenean nec ultrices turpis</h4></div>
-				<div id="featured-section-content" class="l9 m9 s11 x12">
+				<div id="featured-section-content" class="l9 m11 s11 x12">
 					<div class="featured-section-content-tile l4 m4 s4 x12">
 						<div class="featured-section-content-tile-count">
 							<h6>01</h6>
@@ -255,7 +255,7 @@
 
 		<!-- Extra section begins here -->
 		<!-- Extra section begins here -->
-		<div id="extra-section" class="l12 m12 s12 x12">
+	<!-- 	<div id="extra-section" class="l12 m12 s12 x12">
 			<div id="extra-section-image" class="l12 m12 s12 x12"></div>
 			<div id="extra-section-fade" class="l12 m12 s12 x12"></div>
 			<div id="extra-section-content" class="l12 m12 s12 x12">
@@ -267,7 +267,7 @@
 				</div>
 			</div>
 
-		</div>
+		</div> -->
 
 		<!-- Extra section ends here -->
 		<!-- Extra section ends here -->

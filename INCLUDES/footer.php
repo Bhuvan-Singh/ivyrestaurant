@@ -23,10 +23,10 @@
           </div>
           <div id="subscribe-now-form-container" class="l12 m12 s12 x12">
             <form onsubmit="subscriberListFunction(); return false;" id="subscriberList">
-              <input type="email" name="subscriber_email" id="subscriber_email" placeholder="Your Email Id" class=" l6 m6 s10 x10">
-              <button name="submit_subscriber_form" class=" l3 m3 s10 x10" id="submit_subscriber_form" >Subscribe Now</button>
+              <input type="email" name="subscriber_email" id="subscriber_email" placeholder="Your Email Id" class=" l6 m8 s10 x10">
+              <button name="submit_subscriber_form" class=" l3 m8 s10 x10" id="submit_subscriber_form" >Subscribe Now</button>
               <div  class="l12 m12 s12 x12">
-                <div id="subscribeStatus" class="success l7 m7 s10 x10">
+                <div id="subscribeStatus" class="success l7 m8 s10 x10">
                     Succesful Subscription
                 </div>
               </div>

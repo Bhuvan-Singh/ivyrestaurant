@@ -40,7 +40,7 @@
 	<div id="featured-section-content-container" class="l12 m12 s12 x12">
 		<div id="featured-section-image" class="l12 m12 s12 x12"></div>
 		<div id="featured-section-heading" class="l12 m12 s12 x12"><h4>Aenean nec ultrices turpis</h4></div>
-		<div id="featured-section-content" class="l9 m9 s11 x12">
+		<div id="featured-section-content" class="l9 m11 s11 x12">
 			<div class="featured-section-content-tile l4 m4 s4 x12">
 				<div class="featured-section-content-tile-count">
 					<h6>01</h6>
